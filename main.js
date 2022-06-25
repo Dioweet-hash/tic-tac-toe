@@ -54,6 +54,18 @@ function Checker(){
             }
         }
     }
+    //if all cells are filled set to draw
+    var count = 0;
+    for(var i = 1; i <= 9; i++){
+        if(document.getElementById(i).innerHTML != "-"){
+            count++;
+        }
+    }
+    if(count == 9){
+        document.getElementById("winner-name").innerHTML = "Draw";
+        document.getElementById("winner").style.display = "block";
+        BlockAllCells();
+    }
 
 }
 
