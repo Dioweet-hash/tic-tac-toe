@@ -1,0 +1,35 @@
+button{
+    font-size: 120%;
+}
+
+#current-player{
+    font-size: 650%;
+    margin: 0 auto;
+}
+
+#board{
+    grid-template-columns: repeat(3, 33%);
+}
+
+#board button{
+    font-size: 1200%;
+    height: 100%;
+
+}
+
+#controls{
+    width: 99%;
+    position: absolute;
+    top: 80%;
+    display: block;
+
+}
+
+#controls button{
+    font-size: 1000%;
+}
+
+#winner{
+    font-size: 700%;
+    margin: 0 auto;
+}
